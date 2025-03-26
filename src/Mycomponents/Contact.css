@@ -1,0 +1,110 @@
+/* Contact.css */
+
+.section-container {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.connect-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+}
+
+.form-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  color: #333;
+}
+
+.social-link:hover {
+  background: #007bff;
+  color: white;
+  transform: translateY(-3px);
+}
+
+.social-link svg {
+  min-width: 24px;
+  min-height: 24px;
+}
+
+.social-link div {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-link h4 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.social-link p {
+  font-size: 0.9rem;
+  color: inherit;
+  margin: 0;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+}
+
+#paragraph {
+  margin: 0px;
+  margin-bottom: 20px;
+  color: gray;
+}
+
+#h3 {
+  color: #007bff;
+}
