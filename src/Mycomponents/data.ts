@@ -72,4 +72,5 @@ export interface Project {
     github: "https://github.com/kprince612/",
     linkedin: "https://www.linkedin.com/in/prince-khandelwal-46413a288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     email: "khandelwalprince612@gmail.com",
+    leetcode: "https://leetcode.com/u/Prince_Khandelwal/",
   };

@@ -1,6 +1,7 @@
 import { ArrowUp, Github, Linkedin, Mail } from "lucide-react";
 import { socialLinks } from "../Mycomponents/data";  // Adjusted path to relative
 import "./Footer.css";  // Import the CSS file
+import { SiLeetcode } from "react-icons/si";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -42,6 +43,15 @@ const Footer = () => {
               aria-label="Email"
             >
               <Mail size={20} />
+            </a>
+            <a
+              href={socialLinks.leetcode}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon"
+              aria-label="LinkedIn"
+            >
+              <SiLeetcode size={20} />
             </a>
           </div>
         </div>

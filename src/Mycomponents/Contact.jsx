@@ -1,6 +1,7 @@
 import { Check, Github, Linkedin, Mail, Send } from "lucide-react";
 import { socialLinks } from "../Mycomponents/data"; // Adjusted path to relative
 import "./Contact.css"; // Import the CSS file
+import { SiLeetcode } from "react-icons/si";
 
 const Contact = () => {
   return (
@@ -50,6 +51,19 @@ const Contact = () => {
                 <div>
                   <h4>LinkedIn</h4>
                   <p>Connect professionally</p>
+                </div>
+              </a>
+
+              <a
+                href={socialLinks.leetcode}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link"
+              >
+                <SiLeetcode size={20} />
+                <div>
+                  <h4>Leetcode</h4>
+                  <p>Solve coding challenges</p>
                 </div>
               </a>
             </div>
